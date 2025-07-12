@@ -35,7 +35,7 @@ const SwapRequests = () => {
       type: 'incoming',
       status: 'pending',
       otherUser: {
-        name: 'Marcus Johnson',
+        name: 'Anil Sharma',
         avatar: '/placeholder.svg',
         rating: 4.8,
         location: 'Austin, TX'
@@ -51,7 +51,7 @@ const SwapRequests = () => {
       type: 'outgoing',
       status: 'accepted',
       otherUser: {
-        name: 'Elena Rodriguez',
+        name: 'Alana Pandey',
         avatar: '/placeholder.svg',
         rating: 5.0,
         location: 'Miami, FL'
@@ -67,7 +67,7 @@ const SwapRequests = () => {
       type: 'incoming',
       status: 'completed',
       otherUser: {
-        name: 'David Kim',
+        name: 'Danish Khilji',
         avatar: '/placeholder.svg',
         rating: 4.9,
         location: 'Seattle, WA'
@@ -83,7 +83,7 @@ const SwapRequests = () => {
       type: 'outgoing',
       status: 'pending',
       otherUser: {
-        name: 'Lisa Chen',
+        name: 'Ananya Sharma',
         avatar: '/placeholder.svg',
         rating: 4.7,
         location: 'Portland, OR'
