@@ -1,73 +1,154 @@
-# Welcome to your Lovable project
+# Swappify
 
-## Project info
+## 📝 Problem Statement
+Develop a **Skill Swap Platform** — a mini application that enables users to **list their skills** and **request others in return**. This platform aims to foster a community of mutual learning and collaboration by matching users based on the skills they can offer and the skills they seek.
 
-**URL**: https://lovable.dev/projects/87a0a6f0-c9cf-4eb5-b2e5-a4faed042a6b
+---
 
-## How can I edit this code?
+## 🧑‍🤝‍🧑 Team Members
 
-There are several ways of editing your application.
+| Name              | Email Address               |
+|-------------------|-----------------------------|
+| Swara             | swara.mandale7@gmail.com    |
+| Surabhi           | sahusurabhi02@gmail.com        |
+| Veerta            | veertavikramshrivastava@gmail.com         |
+| Soha              | sohaghodeswar@gmail.com        |
 
-**Use Lovable**
+## 🧠 Why Skill Swap?
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/87a0a6f0-c9cf-4eb5-b2e5-a4faed042a6b) and start prompting.
+Millions of people want to learn new skills but can’t afford expensive courses or coaching.
 
-Changes made via Lovable will be committed automatically to this repo.
+> This platform connects people who can **trade knowledge** — no money, no barriers.
 
-**Use your preferred IDE**
+- 🎓 A student who knows Python can learn digital marketing
+- 🎨 A graphic designer can learn SEO from a content creator
+- 🧑‍🏫 A teacher can offer spoken English in return for website building
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ✨ Features
 
-Follow these steps:
+| Feature | Description |
+|--------|-------------|
+| 🧑‍💼 **Public/Private Profiles** | Set availability, skills offered/wanted |
+| 🔍 **Skill Search** | Find people by skill keywords |
+| 🔁 **Request Swaps** | Send/accept/reject/delete swap offers |
+| 🛡️ **Admin Tools** | Moderate users and send platform-wide messages |
+| 📊 **Analytics Dashboard** | Live stats on users, swaps, feedback |
+| 🌗 **Responsive + Accessible UI** | Tailwind-powered, light/dark mode ready |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📷 Screenshots
 
-# Step 3: Install the necessary dependencies.
-npm i
+<table>
+<tr>
+<td>🔐 Sign In</td>
+<td>📝 Edit Profile</td>
+</tr>
+<tr>
+<td><img src="https://user-images.githubusercontent.com/placeholder/signin.png" width="400"/></td>
+<td><img src="https://user-images.githubusercontent.com/placeholder/edit.png" width="400"/></td>
+</tr>
+<tr>
+<td>🔍 Skill Search</td>
+<td>📊 Admin Dashboard</td>
+</tr>
+<tr>
+<td><img src="https://user-images.githubusercontent.com/placeholder/search.png" width="400"/></td>
+<td><img src="https://user-images.githubusercontent.com/placeholder/admin.png" width="400"/></td>
+</tr>
+</table>
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## ⚙️ Tech Stack
+
+| Category     | Stack                        |
+|--------------|------------------------------|
+| Frontend     | React + Next.js (TypeScript) |
+| Styling      | Tailwind CSS                 |
+| Auth         | Firebase Auth + NextAuth     |
+| Database     | Firestore                    |
+| Hosting      | Vercel                       |
+| Realtime     | Firestore onSnapshot         |
+
+---
+
+## 🛠️ How to Run Locally
+
+```bash
+git clone https://github.com/your-username/skill-swap-platform
+cd skill-swap-platform
+npm install
+```
+
+Then add `.env.local`:
+
+```env
+NEXT_PUBLIC_FIREBASE_API_KEY=...
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=...
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=...
+...
+```
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+➡️ Visit `http://localhost:3000`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🧩 Folder Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+skill-swap-platform/
+├── client/
+│   ├── components/   # UI Components
+│   ├── pages/        # Next.js Routes
+│   └── styles/       # Tailwind CSS
+├── server/
+│   └── firebase.ts   # Firebase config
+└── public/           # Static assets
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🚀 Hackathon Pitch Value
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+This project is:
+- 💡 Unique idea with real-world impact
+- 💼 Ready for production (hosted, secure, scalable)
+- 💬 Easy to pitch: “Skill bartering instead of money”
+- 🧠 Uses emerging tech (Realtime DB, Firebase, Tailwind)
+- 🧪 MVP polished for 3-minute demo
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/87a0a6f0-c9cf-4eb5-b2e5-a4faed042a6b) and click on Share -> Publish.
+## 📈 Future Roadmap
 
-## Can I connect a custom domain to my Lovable project?
+- ✅ Real-time swap chat
+- ✅ Skill rating system after swap
+- ⏳ AI suggestions: “People you can swap with”
+- ⏳ Gamification: badges, streaks, swap score
+- ⏳ Mobile app (React Native)
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🧠 Inspiration
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Inspired by communities that exchange skills informally — this app formalizes and democratizes that process for everyone, everywhere.
+
+---
+
+## 🙋 Contributing
+
+Pull requests are welcome! For major changes, open an issue first to discuss what you’d like to change.
+
+---
+
+## 📄 License
+
+MIT © 2025 Skill Swap Team
+
