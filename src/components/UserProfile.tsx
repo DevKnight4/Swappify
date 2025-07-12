@@ -20,8 +20,8 @@ interface UserProfileProps {
 const UserProfile = ({ isEditing = false }: UserProfileProps) => {
   const [editing, setEditing] = useState(isEditing);
   const [profile, setProfile] = useState({
-    name: "Sarah Chen",
-    email: "sarah.chen@email.com",
+    name: "Ananya Sharma",
+    email: "ananya.sharma@email.com",
     location: "San Francisco, CA",
     bio: "Passionate web developer and UI/UX enthusiast. Love sharing knowledge and learning new creative skills!",
     avatar: "/placeholder.svg",
